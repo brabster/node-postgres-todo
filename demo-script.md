@@ -49,3 +49,4 @@
 - branch histories reflect reality (no 'extra' commits on staging or master)
 - CI is available ($10 per month + resource costs)
 - more complex environments are harder to deal with if they depend on one another
+- managing state is always super-important but even more so with changes flowing through pipelines (db-migrate, release task)
