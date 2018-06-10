@@ -53,7 +53,11 @@
 - more complex environments are harder to deal with if they depend on one another
 - managing state is always super-important but even more so with changes flowing through pipelines (db-migrate, release task)
 - only a handful of source controls systems support (eg. Github)
-- cheap, quick, simple, opinionated - a good choice for startups/lean startups/PoCs, where exploring the product/market fit space is the key thing
+
+## Summary Opinion
+- cheap, quick, simple, opinionated
+- so a good choice for startups/lean startups/PoCs, where exploring the product/market fit space is the key thing
+- for others, useful to try a real-world end to end pipeline with this polish for influence of your own CI/CD process
 
 ## Resources
 - https://devcenter.heroku.com/articles/pipelines
