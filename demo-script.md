@@ -40,7 +40,7 @@
 - merge PR; show review app is gone, and staging is deploying
 - add TODO_ENV to staging
 - show
-- add TODO_env to production
+- add TODO_ENV to production
 - Promote; show endpoint works
 
 ## DONE!
@@ -53,6 +53,7 @@
 - more complex environments are harder to deal with if they depend on one another
 - managing state is always super-important but even more so with changes flowing through pipelines (db-migrate, release task)
 - only a handful of source controls systems support (eg. Github)
+- cheap, quick, simple, opinionated - a good choice for startups/lean startups/PoCs, where exploring the product/market fit space is the key thing
 
 ## Resources
 - https://devcenter.heroku.com/articles/pipelines
