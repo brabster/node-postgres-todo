@@ -18,6 +18,7 @@
 
 - create app (shefdevops-todo-staging)
 - add a postgres db
+- hook up to Github
 - enable automatic deploys (doesn't bootstrap)
 - deploy
 - show build log, release log, and app
@@ -47,6 +48,12 @@
 ## Notes
 - everything done at the UI can be done on the command line
 - branch histories reflect reality (no 'extra' commits on staging or master)
-- CI is available ($10 per month + resource costs)
+- there is a manual deploy step, plus UI/API to handle it
+- CI is available ($10 per month + resource costs), deploy to staging stops if CI doesn't pass
 - more complex environments are harder to deal with if they depend on one another
 - managing state is always super-important but even more so with changes flowing through pipelines (db-migrate, release task)
+- only a handful of source controls systems support (eg. Github)
+
+## Resources
+- https://devcenter.heroku.com/articles/pipelines
+- https://devcenter.heroku.com/articles/heroku-ci
