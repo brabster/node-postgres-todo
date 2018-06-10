@@ -56,7 +56,7 @@
 
 ## Summary Opinion
 - cheap, quick, simple, opinionated
-- so a good choice for startups/lean startups/PoCs, where exploring the product/market fit space is the key thing
+- so a good choice for startups/lean startups/PoCs, where exploring the product/market fit space quickly & cheaply is the key thing
 - for others, useful to try a real-world end to end pipeline with this polish for influence of your own CI/CD process
 
 ## Resources
